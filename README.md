@@ -1,4 +1,4 @@
-**DS Concepts**
+**Notes of Distributed System** -- Starting from CMU-18842
 ===
 
 **What is this repository talking about?**
