@@ -16,6 +16,10 @@ State machine is a good conceptual model for other ds concepts and protocols, an
 
 Then disadvantage of state machine is about overhead, hard to understand concurrent requirements and too much redundancy.
 
+
+----------
+
+
 **Primary Back-up Approach**
 ---
 **Basic prototype**
@@ -35,6 +39,10 @@ In order to offload read workload from primary node, read request could send to 
 Particularly in mobile computing, nodes could be disconnected from others. In order to solve that problem, we allow migration from backup to primary. 
 
 Prior to disconnection, the node becomes primary from backup. Then while in disconnecting period, data could still be updated and transmitted, (old) data could still be read from other processes. When recovery, back-to-live node would get the updated states.
+
+
+----------
+
 
 **MapReduce**
 ---
