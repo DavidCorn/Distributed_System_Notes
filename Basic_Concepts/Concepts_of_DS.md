@@ -33,3 +33,7 @@ DS Challenges
 > - Server: specialized, a provider of services (file services, db services, groupware services, web services)
 > - Naming, authentication, authorization, auditing and logging, billing
 > - Load balancing
+> 
+> Difference between consistency and consensus
+> 
+> Consistency means the content and time ordering should be consistent in different nodes, consensus means that different nodes share an agreement on certain protocol or value.
