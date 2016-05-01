@@ -14,6 +14,10 @@ Naming is a mechanism to make machine a human readable identifier. URN (Uniform 
 >   - Non-recursive server controlled: local namespace help client to do the multicast job;
 >   - Recursive server controlled: Client sends request to local namespace, local namespace sends request to nearby namespace, nearby namespace sends request to another namespace... When target namespace is found, replies with the answer through the sending route back to the client.
 
+
+----------
+
+
 **Domain Name System**
 ---
 DNS is the most successful distributed system. It scales to millions of computers, and its name structure reflects administrative structure of internet. Its main job is to resolve domain names to IP addresses.
