@@ -17,7 +17,7 @@ The representative platforms are **Skype** and **KaZaa**. Supernodes evolve from
 
 **DHT (Distributed Hash Table)**
 ---
-DHT has property like a normal traditional hash table, which contains (key, value) pairs that stores file name (key) and IP address (value). All the index of files combined into a very large hash table. In order to store the large table, it is divided into different small chunks and distributed to every participated nodes in the system. The distributing rules depends on specific system. Common rules are **CAN**,** Chord**, **Pastry** and **Tapestry**.
+DHT has property like a normal traditional hash table, which contains (key, value) pairs that stores file name (key) and IP address (value). All the index of files combined into a very large hash table. In order to store the large table, it is divided into different small chunks and distributed to every participated nodes in the system. The distributing rules depends on specific system. Common rules are **CAN**, **Chord**, **Pastry** and **Tapestry**.
 
 In traditional hash table, removing a bucket forces remapping all the entire keyspace, whereas in DHT, consistent-hashing determines that removing a node does not rearrange the whole keys.
 
